@@ -1,0 +1,39 @@
+# research_task:
+#   description: >
+#     Conduct a thorough research about {topic}
+#     Make sure you find any interesting and relevant information given
+#     the current year is {current_year}.
+#   expected_output: >
+#     A list with 10 bullet points of the most relevant information about {topic}
+#   agent: researcher
+
+# reporting_task:
+#   description: >
+#     Review the context you got and expand each topic into a full section for a report.
+#     Make sure the report is detailed and contains any and all relevant information.
+#   expected_output: >
+#     A fully fledged report with the main topics, each with a full section of information.
+#     Formatted as markdown without '```'
+#   agent: reporting_analyst
+
+
+report_task:
+  description: >
+    Based on the research and analysis provided, compile a comprehensive report on {topic}.
+    Ensure the report is well-structured, clear, and includes actionable insights. The report
+    should be around 2000 words.
+  expected_output: >
+    A detailed report on {topic}, formatted as markdown without '```',
+    covering all key aspects and findings from the research and analysis.Its is expected to be around 2000 words.
+  agent: report_generator
+
+blog_writing_task:
+  description: >
+    Using the report generated, write an engaging and informative blog post that highlights
+    the key findings and insights on {topic}. The blog post should be accessible to a broad
+    audience and encourage further reading.The blog post should be around 500 words.
+  expected_output: >
+    A well-written blog post on {topic}, formatted as markdown without '```',
+    summarizing the main points from the report in an engaging manner.
+    The blog post should be around 500 words.
+  agent: blog_writer

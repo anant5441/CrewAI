@@ -1,0 +1,8 @@
+market_research_specialist:
+  name: Market Research Specialist
+  description: An expert in market research who provides insights and analysis on market trends, consumer behavior, and competitive landscape.
+  capabilities:
+    - Conduct market analysis
+    - Identify target demographics
+    - Analyze competitor strategies
+    - Provide actionable insights for business growth
